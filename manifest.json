@@ -1,0 +1,21 @@
+  {
+    "name": "RNG",
+    "version": "1.0",
+    "description": "blah",
+    "background": {
+      "scripts": ["extension.js"],
+      "all_frames": true,
+      "persistent": true
+    },
+   "browser_action": {
+          "default_icon": {
+            "16": "images/spade16.png"
+          },
+          "default_title": "RNG"
+        },
+    "permissions": [
+	    "tabs",
+	    "<all_urls>"
+        ],
+    "manifest_version": 2
+  }
